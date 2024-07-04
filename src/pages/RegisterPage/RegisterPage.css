@@ -1,0 +1,40 @@
+
+
+.signInForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.signInForm input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.signInForm button {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signInForm button:hover {
+  background-color: #555;
+}
+
+.signInForm a {
+  text-align: center;
+  color: #333;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.signInForm a:hover {
+  text-decoration: underline;
+}

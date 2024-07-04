@@ -1,0 +1,38 @@
+.courseFilter {
+  display: flex;
+  justify-content: space-around;
+}
+.tabs {
+  display: flex;
+  gap: 30px;
+}
+.tab {
+  font-weight: bolder;
+  /* background-color: aliceblue; */
+  padding: 20px;
+}
+.search {
+  padding: 5px 10px;
+  border: 1px solid grey;
+  border-radius: 15px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search > input {
+  padding: 10px;
+  border: transparent;
+  width: 300px;
+}
+.search > img {
+  width: 20px;
+  height: 20px;
+}
+
+.courseCards {
+  display: flex;
+  margin: 50px auto;
+  justify-content: center;
+  align-items: center;
+}
